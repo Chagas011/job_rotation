@@ -18,6 +18,3 @@ def sequencia_fibonacci(valor):
 
     else:
         print(f'O numero informado: [{valor}] nao esta na lista {lista}')
-
-
-sequencia_fibonacci(valor)
