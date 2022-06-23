@@ -23,9 +23,3 @@ media_faturamento = sum(filtrando_fim_de_semana) / len(filtrando_fim_de_semana)
 # Obtendo a quantidade de dias que o valor diario foi maior que a média
 valor_diario_maior_que_media = len(list(
     filter(lambda x: x > media_faturamento, filtrando_fim_de_semana)))
-
-
-print(menor_valor_faturado)
-print(filtrando_fim_de_semana)
-print(media_faturamento)
-print(valor_diario_maior_que_media)
